@@ -1,0 +1,128 @@
+
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-family: "Outfit";
+    text-align: center;
+}
+p{
+    color: hsl(215, 51%, 70%);
+}
+a{
+    text-decoration: none;
+}
+hr.style-one {
+    border-color: hsl(215, 32%, 27%);
+    border-top:1px;
+    width: 300px;
+}
+
+.hov-state{
+    position: absolute;
+    display: flex;
+    top:0;
+    left:0;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(178, 100%, 50%,0.6);
+    border-radius: 10px;
+    opacity: 0;
+}
+.hov-state:hover{
+    opacity: 1;
+}
+.preview{
+    opacity: 1;
+}
+.product-img{
+    position:relative;
+    max-width: 300px;
+}
+.nft-img{
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.nft-name{
+    font-weight: 600;
+    font-size: 22px;
+    color:hsl(0, 0%, 100%);
+}
+
+.nft-desc{
+    font-size: 18px;
+    margin-top:auto;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%)
+}
+
+.buy-dtl{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.buy-dtl img{
+    padding-right: 5px;
+}
+
+.nft-price{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.nft-time{
+    padding-left: 110px;
+    color: hsl(215, 51%, 70%);
+}
+.container{
+    box-shadow: 
+    1rem 1.5rem hsla(215, 57%, 10%, 0.945), 
+    -1rem 1.5rem  hsla(215, 57%, 10%, 0.945), 
+    3rem -3rem  hsla(215, 57%, 10%, 0.3), 
+    -3em -3em   hsla(215, 57%, 10%, 0.3), 
+    3rem 4rem hsla(215, 57%, 10%, 0.3), 
+    -3em 4em   hsla(215, 57%, 10%, 0.3);
+    display:flex;
+    flex-direction: column; 
+    border-radius: 20px;
+    max-width: 300px;
+    background-color:hsl(216, 50%, 16%) ;
+    padding:18px;
+    margin: 130px auto;
+    text-align: left;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.artist-name{
+    color:white;
+    text-decoration: none;
+}
+.artist-name:hover, .nft-name:hover{
+    color:hsl(178, 100%, 50%);
+}
+.credits{
+    display: flex;   
+    align-items: center;
+}
+.credits-p{
+    padding-left: 15px;
+}
+.avatar{
+    max-width:30px;
+    max-height: 30px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+@media only screen and (max-width: 340px) {
+    .nft-img{
+        max-width: 285px;
+    }
+  }
