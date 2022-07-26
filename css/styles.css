@@ -122,7 +122,19 @@ hr.style-one {
     border-radius: 15px;
 }
 @media only screen and (max-width: 340px) {
+    .container{
+        width: 110%;
+    }
     .nft-img{
-        max-width: 285px;
+        max-width: 100%;
+    }
+    hr.style-one{
+        max-width: 100%;
+    }
+    .credits{
+        font-size:18px ;
+    }
+    .nft-time{
+        padding-left: 80px;
     }
   }
